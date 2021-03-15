@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-basic-input'
+import { ReactBasicInput } from 'react-basic-input'
 import 'react-basic-input/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ReactBasicInput type={'text'} inputVal={'soem value here'} labelVal='label text' />
 }
 
 export default App

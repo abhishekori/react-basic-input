@@ -15,12 +15,12 @@ npm install --save react-basic-input
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-basic-input'
+import ReactBasicInput from 'react-basic-input'
 import 'react-basic-input/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ReactBasicInput type='text' />
   }
 }
 ```
